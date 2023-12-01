@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 5rem;
+  height: 15rem;
   width: 100%;
   font-family: "Work Sans", sans-serif;
   font-weight: 700;
@@ -51,7 +51,6 @@
   display: none;
   font-weight: 400;
   color: var(--grayishPurple);
-  transform: scaleY(0);
 }
 .faq__container ul li img {
   height: 2.5rem;
