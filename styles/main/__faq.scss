@@ -15,6 +15,25 @@
     border-radius: 1rem;
     padding : 3rem;
 
+    ul {
+      height: auto;
+      margin-top : 2rem;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height : 5rem;
+        width : 100%;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 700;
+        font-size : 1.1rem;
+
+        img {
+          height : 50%;
+        }
+      }
+    }
+
     &__title {
       width : 100%;
       font-size : 4rem;
