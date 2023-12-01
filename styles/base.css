@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 400;
+  src: url("../assets/fonts/static/WorkSans-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 600;
+  src: url("../assets/fonts/static/WorkSans-SemiBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Work Sans";
+  font-weight: 700;
+  src: url("../assets/fonts/static/WorkSans-Bold.ttf") format("ttf");
+}
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -15,6 +30,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  font-family: "Work Sans", sans-serif;
 }
 
 /*# sourceMappingURL=base.css.map */
